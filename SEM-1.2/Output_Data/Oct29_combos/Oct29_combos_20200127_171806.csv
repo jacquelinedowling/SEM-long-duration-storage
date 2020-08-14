@@ -1,0 +1,12 @@
+case name,CCS
+system reliability,-1.0
+CO2 price ($/kgCO2),0.0
+norm. demand to 1,True
+demand file,US_demand_unnormalized_FOURTY_YEARS_FROM_FOUR_YEAR_LOOP.csv
+mean demand (kW),1.0
+fixed cost natgas_ccs ($/kW/h),0.0272712
+var cost natgas_ccs ($/kW/h),0.0566
+problem status,optimal
+system cost ($ or $/kWh),0.09791636987704176
+capacity natgas_ccs (kW),1.5150184031887943
+dispatch natgas ccs (kW),1.0

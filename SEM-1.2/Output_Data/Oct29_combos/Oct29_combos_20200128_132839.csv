@@ -1,0 +1,31 @@
+case name,SolarWind_CCS,SolarWind_NucCCS,CCS
+system reliability,-1,-1,-1
+CO2 price ($/kgCO2),0,0,0
+norm. demand to 1,TRUE,TRUE,TRUE
+demand file,US_demand_unnormalized_FOURTY_YEARS_FROM_FOUR_YEAR_LOOP.csv,US_demand_unnormalized_FOURTY_YEARS_FROM_FOUR_YEAR_LOOP.csv,US_demand_unnormalized_FOURTY_YEARS_FROM_FOUR_YEAR_LOOP.csv
+mean demand (kW),1,1,1
+fixed cost natgas_ccs ($/kW/h),0.0272712,0.0272712,0.0272712
+var cost natgas_ccs ($/kW/h),0.0566,0.0566,0.0566
+fixed cost solar ($/kW/h),0.0218638,0.0218638,-1
+var cost solar ($/kW/h),1.00E-08,1.00E-08,-1
+solar file,US_solar_thresh.csv,US_solar_thresh.csv,US_solar_thresh.csv
+cap factor solar (-),0.274937084,0.274937084,0
+fixed cost wind ($/kW/h),0.0206486,0.0206486,-1
+var cost wind ($/kW/h),1.05E-08,1.05E-08,-1
+wind file,US_wind_thresh.csv,US_wind_thresh.csv,US_wind_thresh.csv
+cap factor wind (-),0.363571204,0.363571204,0
+fixed cost nuclear ($/kW/h),-1,0.0647539,-1
+var cost nuclear ($/kW/h),-1,0.0228,-1
+problem status,optimal,optimal,optimal
+system cost ($ or $/kWh),0.089970431,0.089970431,0.09791637
+capacity natgas_ccs (kW),1.02988016,1.02988016,1.515018403
+dispatch natgas ccs (kW),0.366045794,0.366045794,1
+capacity solar (kW),0.702167971,0.702167971,0
+dispatch solar (kW),0.193052014,0.193052014,0
+curtailment solar (kW),7.25E-19,7.25E-19,0
+capacity wind (kW),1.250162446,1.250162446,0
+dispatch wind (kW),0.440902192,0.440902192,0
+curtailment wind (kW),0.013620874,0.013620874,0
+capacity nuclear (kW),0,0,0
+dispatch nuclear (kW),0,0,0
+curtailment nuclear (kW),0,0,0
